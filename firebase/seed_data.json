@@ -1,0 +1,28 @@
+{
+  "hostels": {
+    "indra": {
+      "name": "Indra (New Boys Hostel)",
+      "type": "Boys",
+      "roomType": "Double Occupancy",
+      "summary": "Modern mess, WiFi, laundry, and study room"
+    },
+    "boys-abcd": {
+      "name": "Boys Hostel (A, B, C, D)",
+      "type": "Boys",
+      "roomType": "Single / Double Occupancy",
+      "summary": "Security, attached bathroom, wardrobe, and campus video"
+    },
+    "girls-fairy": {
+      "name": "Girls Hostel (Fairy)",
+      "type": "Girls",
+      "roomType": "Triple Occupancy",
+      "summary": "Common study room, WiFi, and reading lamp"
+    },
+    "girls-haripriya": {
+      "name": "Girls Hostel (Haripriya)",
+      "type": "Girls",
+      "roomType": "Double Occupancy",
+      "summary": "Recreation room, WiFi, and reading lamp"
+    }
+  }
+}

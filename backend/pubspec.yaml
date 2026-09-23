@@ -1,0 +1,13 @@
+name: hostel_app_backend
+description: Local backend for the Hostel Flutter app.
+version: 1.0.0
+
+environment:
+  sdk: ^3.10.0
+
+dependencies:
+  shelf: ^1.4.2
+  shelf_router: ^1.1.4
+  shelf_cors_headers: ^0.1.5
+  crypto: ^3.0.6
+  dart_jsonwebtoken: ^3.3.1

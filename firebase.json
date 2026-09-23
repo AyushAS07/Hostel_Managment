@@ -1,0 +1,39 @@
+{
+  "firestore": {
+    "rules": "firebase/firestore.rules"
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "rit-hostel-app-b1a1c",
+          "appId": "1:28247779916:android:8d44b433a874611129a2e9",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "rit-hostel-app-b1a1c",
+          "configurations": {
+            "android": "1:28247779916:android:8d44b433a874611129a2e9",
+            "web": "1:28247779916:web:7da3a5d652c1ac5129a2e9"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}

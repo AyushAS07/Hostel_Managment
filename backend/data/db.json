@@ -1,0 +1,211 @@
+{
+  "users": [
+    {
+      "id": "1776664014723274",
+      "name": "Avadhut Patil",
+      "email": "avpatil@gmail.com",
+      "passwordHash": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92",
+      "gender": "Boys",
+      "age": "21",
+      "phone": "1234567890",
+      "createdAt": "2026-04-20T11:16:54.728809",
+      "role": "student"
+    },
+    {
+      "id": "1776664413338292",
+      "name": "A K",
+      "email": "a@gmail.com",
+      "passwordHash": "8bb0cf6eb9b17d0f7d22b456f121257dc1254e1f01665370476383ea776df414",
+      "gender": "Boys",
+      "age": "21",
+      "phone": "1234567890",
+      "createdAt": "2026-04-20T11:23:33.338292",
+      "role": "student"
+    },
+    {
+      "id": "1776664823276494",
+      "name": "A P",
+      "email": "ap@gmail.com",
+      "passwordHash": "8bb0cf6eb9b17d0f7d22b456f121257dc1254e1f01665370476383ea776df414",
+      "gender": "Boys",
+      "age": "21",
+      "phone": "1234567890",
+      "createdAt": "2026-04-20T11:30:23.276494",
+      "role": "student"
+    },
+    {
+      "id": "1776665442569670",
+      "name": "Admin",
+      "email": "admin@rit-hostel.local",
+      "passwordHash": "ac9689e2272427085e35b9d3e3e8bed88cb3434828b43b86fc0596cad4c6e270",
+      "gender": "N/A",
+      "age": "N/A",
+      "phone": "N/A",
+      "role": "admin",
+      "createdAt": "2026-04-20T11:40:42.569670"
+    },
+    {
+      "id": "1776849699324529",
+      "name": "Ayush Salunkhe",
+      "email": "ayush@gmail.com",
+      "passwordHash": "8bb0cf6eb9b17d0f7d22b456f121257dc1254e1f01665370476383ea776df414",
+      "gender": "Boys",
+      "age": "21",
+      "phone": "1234567890",
+      "role": "student",
+      "createdAt": "2026-04-22T14:51:39.324529"
+    },
+    {
+      "id": "1776850897498371",
+      "name": "Chaitanya Mali",
+      "email": "chaitanya@gmail.com",
+      "passwordHash": "8bb0cf6eb9b17d0f7d22b456f121257dc1254e1f01665370476383ea776df414",
+      "gender": "Boys",
+      "age": "21",
+      "phone": "1234567890",
+      "role": "student",
+      "createdAt": "2026-04-22T15:11:37.499356"
+    }
+  ],
+  "contacts": [],
+  "admissions": [],
+  "hostels": [
+    {
+      "id": "indra",
+      "name": "Indra (New Boys Hostel)",
+      "type": "Boys",
+      "roomType": "Double Occupancy",
+      "summary": "Modern mess, WiFi, laundry, and study room"
+    },
+    {
+      "id": "boys-abcd",
+      "name": "Boys Hostel (A, B, C, D)",
+      "type": "Boys",
+      "roomType": "Single / Double Occupancy",
+      "summary": "Security, attached bathroom, wardrobe, and campus video"
+    },
+    {
+      "id": "girls-fairy",
+      "name": "Girls Hostel (Fairy)",
+      "type": "Girls",
+      "roomType": "Triple Occupancy",
+      "summary": "Common study room, WiFi, and reading lamp"
+    },
+    {
+      "id": "girls-haripriya",
+      "name": "Girls Hostel (Haripriya)",
+      "type": "Girls",
+      "roomType": "Double Occupancy",
+      "summary": "Recreation room, WiFi, and reading lamp"
+    }
+  ],
+  "rooms": [
+    {
+      "id": "1776667188635965",
+      "building": "A",
+      "floor": 1,
+      "roomNo": "101",
+      "capacity": 2,
+      "occupiedCount": 0,
+      "type": "Double",
+      "status": "available",
+      "createdAt": "2026-04-20T12:09:48.635965"
+    },
+    {
+      "id": "1776679141545435",
+      "building": "new building",
+      "floor": 3,
+      "roomNo": "23",
+      "capacity": 10,
+      "occupiedCount": 1,
+      "type": "Double",
+      "status": "available",
+      "createdAt": "2026-04-20T15:29:01.545435"
+    },
+    {
+      "id": "1776848742659884",
+      "building": "Indra",
+      "floor": 1,
+      "roomNo": "21",
+      "capacity": 2,
+      "occupiedCount": 2,
+      "type": "single",
+      "status": "available",
+      "createdAt": "2026-04-22T14:35:42.659884"
+    },
+    {
+      "id": "1777447737138262",
+      "building": "B",
+      "floor": 1,
+      "roomNo": "111",
+      "capacity": 1,
+      "occupiedCount": 0,
+      "type": "Single",
+      "status": "available",
+      "createdAt": "2026-04-29T12:58:57.138262"
+    }
+  ],
+  "complaints": [
+    {
+      "id": "1776849369902060",
+      "userId": "1776664014723274",
+      "title": "Room Fan Not Working",
+      "description": "The fan in my room not working properly. please repair it as soon as possible",
+      "status": "open",
+      "createdAt": "2026-04-22T14:46:09.902060"
+    },
+    {
+      "id": "1776853231845381",
+      "userId": "1776664014723274",
+      "title": "Garbage Collection related issue",
+      "description": "There is so many garbage",
+      "status": "open",
+      "createdAt": "2026-04-22T15:50:31.845381"
+    },
+    {
+      "id": "1777447911750949",
+      "userId": "1776849699324529",
+      "title": "Electricity Supply",
+      "description": "Electricity Supply has been unavailable for an hour.",
+      "status": "open",
+      "createdAt": "2026-04-29T13:01:51.750949"
+    }
+  ],
+  "checkins": [
+    {
+      "id": "1776667188690678",
+      "userId": "1776060089841406",
+      "roomId": "1776667188635965",
+      "checkInAt": "2026-04-20T12:09:48.690678",
+      "checkOutAt": "2026-04-20T15:29:30.315873"
+    },
+    {
+      "id": "1776679166430582",
+      "userId": "1776664413338292",
+      "roomId": "1776679141545435",
+      "checkInAt": "2026-04-20T15:29:26.430582",
+      "checkOutAt": ""
+    },
+    {
+      "id": "1776848790158797",
+      "userId": "1776664014723274",
+      "roomId": "1776848742659884",
+      "checkInAt": "2026-04-22T14:36:30.158797",
+      "checkOutAt": ""
+    },
+    {
+      "id": "1776849781078058",
+      "userId": "1776849699324529",
+      "roomId": "1776848742659884",
+      "checkInAt": "2026-04-22T14:53:01.078058",
+      "checkOutAt": ""
+    },
+    {
+      "id": "1777447758994085",
+      "userId": "1776850897498371",
+      "roomId": "1777447737138262",
+      "checkInAt": "2026-04-29T12:59:18.994085",
+      "checkOutAt": "2026-07-24T15:31:31.642397"
+    }
+  ]
+}
